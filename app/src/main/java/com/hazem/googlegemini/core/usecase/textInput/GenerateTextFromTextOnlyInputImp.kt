@@ -2,7 +2,7 @@ package com.hazem.googlegemini.core.usecase.textInput
 
 import com.google.ai.client.generativeai.GenerativeModel
 import com.hazem.googlegemini.BuildConfig
-import com.hazem.googlegemini.ResultData
+import com.hazem.googlegemini.app.ResultData
 
 class GenerateTextFromTextOnlyInputImp : GenerateTextFromTextOnlyInput {
     override suspend fun invoke(inputText: String) =

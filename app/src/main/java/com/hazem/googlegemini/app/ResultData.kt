@@ -1,4 +1,4 @@
-package com.hazem.googlegemini
+package com.hazem.googlegemini.app
 
 sealed class ResultData<T> {
     data class Success<T>(val data: T) : ResultData<T>()

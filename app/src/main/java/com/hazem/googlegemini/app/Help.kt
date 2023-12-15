@@ -1,4 +1,4 @@
-package com.hazem.googlegemini
+package com.hazem.googlegemini.app
 
 import android.content.Context
 import android.graphics.Bitmap

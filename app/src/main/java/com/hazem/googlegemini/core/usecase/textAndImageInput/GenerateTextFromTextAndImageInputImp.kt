@@ -4,7 +4,7 @@ import android.graphics.Bitmap
 import com.google.ai.client.generativeai.GenerativeModel
 import com.google.ai.client.generativeai.type.content
 import com.hazem.googlegemini.BuildConfig
-import com.hazem.googlegemini.ResultData
+import com.hazem.googlegemini.app.ResultData
 
 class GenerateTextFromTextAndImageInputImp:GenerateTextFromTextAndImageInput {
     override suspend fun invoke(inputText: String, images: List<Bitmap?>) =

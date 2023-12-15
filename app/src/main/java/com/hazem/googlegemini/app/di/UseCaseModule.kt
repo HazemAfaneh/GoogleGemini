@@ -1,4 +1,4 @@
-package com.hazem.googlegemini.di
+package com.hazem.googlegemini.app.di
 
 import com.hazem.googlegemini.core.usecase.textAndImageInput.GenerateTextFromTextAndImageInput
 import com.hazem.googlegemini.core.usecase.textAndImageInput.GenerateTextFromTextAndImageInputImp

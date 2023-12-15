@@ -1,18 +1,14 @@
 package com.hazem.googlegemini.app.ui
 
 import android.content.Context
-import android.graphics.Bitmap
 import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.google.ai.client.generativeai.GenerativeModel
-import com.google.ai.client.generativeai.type.content
-import com.hazem.googlegemini.BuildConfig
 import com.hazem.googlegemini.core.usecase.textAndImageInput.GenerateTextFromTextAndImageInput
 import com.hazem.googlegemini.core.usecase.textInput.GenerateTextFromTextOnlyInput
-import com.hazem.googlegemini.doIfFailure
-import com.hazem.googlegemini.doIfSuccess
-import com.hazem.googlegemini.toBitmap
+import com.hazem.googlegemini.app.doIfFailure
+import com.hazem.googlegemini.app.doIfSuccess
+import com.hazem.googlegemini.app.toBitmap
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

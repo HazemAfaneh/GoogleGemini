@@ -1,4 +1,4 @@
-package com.hazem.googlegemini.ui.theme
+package com.hazem.googlegemini.app.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
