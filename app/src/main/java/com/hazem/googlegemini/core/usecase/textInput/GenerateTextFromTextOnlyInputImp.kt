@@ -1,12 +1,12 @@
-package com.hazem.googlegemini.core.usecase
+package com.hazem.googlegemini.core.usecase.textInput
 
 import com.google.ai.client.generativeai.GenerativeModel
 import com.hazem.googlegemini.BuildConfig
 import com.hazem.googlegemini.ResultData
 
 class GenerateTextFromTextOnlyInputImp : GenerateTextFromTextOnlyInput {
-    override suspend fun invoke(inputText: String): ResultData<String> {
-        return try {
+    override suspend fun invoke(inputText: String) =
+        try {
             val generativeModel = GenerativeModel(
                 // For text-only input, use the gemini-pro model
                 modelName = "gemini-pro",
@@ -21,5 +21,5 @@ class GenerateTextFromTextOnlyInputImp : GenerateTextFromTextOnlyInput {
             ResultData.Error("Exception message: ${e.message ?: "Gemini Error"}")
         }
 
-    }
+
 }

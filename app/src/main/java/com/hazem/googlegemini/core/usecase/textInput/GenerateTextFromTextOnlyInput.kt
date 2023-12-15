@@ -1,4 +1,4 @@
-package com.hazem.googlegemini.core.usecase
+package com.hazem.googlegemini.core.usecase.textInput
 
 import com.hazem.googlegemini.ResultData
 
